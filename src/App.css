@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,11 +17,101 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav a.nav-link {
+  letter-spacing: 0.2rem;
+  cursor: pointer;
 }
+
+nav ul li {
+  text-transform: uppercase;
+}
+.navbar-nav > li > a {
+  align-items: start;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  color: white !important;
+  border-bottom: 0.2rem solid rgba(255,255,255,0);
+}
+
+.navbar-brand {
+  color: yellow !important;
+  font-family: Rockwell;
+  font-weight: bold;
+  font-size: xxx-large !important;
+}
+
+.navbar-nav > li > a.active,  .navbar-nav > li > a:focus {
+  border-bottom: 0.2rem solid yellow;
+
+}
+
+.main-home {
+  margin-top: 10rem;
+  margin-left: 20rem;
+}
+
+.home-content{
+  background: yellow;
+  height: 20rem;
+  border: 0.2rem solid yellow;
+  border-radius: 1rem;
+}
+
+.img-fluid {
+  margin-top: -8rem;
+}
+
+.footer {
+  color: white;
+  align-items: center;
+}
+
+.bio {
+  padding-left: 2rem;
+  font-family: Rockwell;
+  background: yellow;
+  border: 0.2rem solid yellow;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.gallery {
+  width: 38.5rem;
+  height: 5rem;
+}
+
+.form-button {
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+
+.form {
+  width: 40rem;
+}
+
+.mb-4 {
+  height: 22rem;
+}
+
+.card-skill {
+  height: 10rem;
+  width: 10rem;
+}
+
+.card-organ {
+  height: 10rem;
+  width: 10rem;
+}
+
+.carousel {
+  height: 18rem;
+  width: 18rem;
+}
+
+
+
